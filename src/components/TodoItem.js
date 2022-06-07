@@ -19,6 +19,10 @@ import styles from "./TodoItem.module.css"
     }
   }
 
+  componentWillUnmount() {
+    console.log("Cleaning up...")
+  }
+
   render() {
 
     const completedStyle = {
